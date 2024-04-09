@@ -5,35 +5,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
 
+   
+  
     <link rel="stylesheet" href="../../resources/css/navbar.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
+
 <body>
-<nav>
-<ul>
-    <li>
-        <a href="#">
-            <img src="" alt="logo">
-        </a>
-    </li>
-    <li><a href="#">
-        <i class="fas fa-home"></i>
-        <span class="nav-item">Home</span>
-    </a></li>
-    <li><a href="#">
-        <i class="fas fa-user"></i>
-        <span class="nav-item"> Usuarios para facturación</span>
-    </a></li>
-    <li><a href="#">
-        <i class="fas fa-sign-out-alt"></i>
-        <span class="nav-item">Cerrar seccion</span>
-    </a></li>
-</ul>
-</nav>
+    <section id="sidebar">
+		<a href="#" class="brand">
+		
+			<span class="text">ASGAR</span>
+		</a>
+		<ul class="side-menu top">
+			<li class="active">
+				<a href="#">
+					<i class='bx bxs-dashboard' ></i>
+					<span class="text">Usuarios para facturación</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx fa-file-invoice' ></i>
+					<span class="text">Usuarios para crédito fiscal</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-doughnut-chart' ></i>
+					<span class="text">Usuarios para consumidor final</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-message-dots' ></i>
+					<span class="text">Factura Sujeto Excluido Electrónico</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-group' ></i>
+					<span class="text"> Usuarios para facturación</span>
+				</a>
+			</li>
+		</ul>
+		<ul class="side-menu">
+			<li>
+				<a href="#">
+					<i class='bx bxs-cog' ></i>
+					<span class="text">Ajustes</span>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="logout">
+					<i class='bx bxs-log-out-circle' ></i>
+					<span class="text">Cerrar Sección</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+	<!-- SIDEBAR -->
 
 
+
+	<!-- CONTENT -->
+	<section id="content">
+		<!-- NAVBAR -->
+		<nav>
+			<i class='bx bx-menu' ></i>
+			<form action="#">
+				<div class="form-input">
+					<input type="search" placeholder="Search...">
+					<button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
+				</div>
+			</form>
+			
+			</a>
+			
+		</nav>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+        <script src="../../resources/js/components.js"></script>
+        
 </body>
 
 </html>
