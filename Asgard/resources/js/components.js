@@ -34,7 +34,7 @@ const barChartOptions = {
     show: false,
   },
   xaxis: {
-    categories: ['Laptop', 'Phone', 'Monitor', 'Headphones', 'Camera'],
+    categories: ['1', '2', '3', '4', '5'],
   },
   yaxis: {
     title: {
